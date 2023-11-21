@@ -1,0 +1,12 @@
+Servlet: it is a simple java program that runs on server and calpable of handling request and generating dynamic response.
+
+It has web server properties. 
+
+
+Servlet Interface methods:
+1)public abstract void init(javax.servlet.ServletConfig)
+2)public ServleyConfig getServletConfig();
+3)public void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+4)public abstract java.lang.String getServletInfo();
+5)public abstract void destroy();
+method 1,3 & 5->life cycle method  
